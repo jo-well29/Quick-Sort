@@ -1,0 +1,12 @@
+{
+	"name": "quick-sort",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"watch": "nodemon ."
+	},
+	"dependencies": {
+		"nodemon": "^1.19.4"
+	}
+}
