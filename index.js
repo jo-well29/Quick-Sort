@@ -4,7 +4,7 @@ function QuickSort(arr, left = 0, right = arr.length - 1) {
 
 	if (length > 1) {
 		index = partition(arr, left, right)
-		console.log(`index ${index}`)
+		console.log(`Partition ${index}`)
 		if (left < index - 1) {
 			QuickSort(arr, left, index - 1)
 		}
